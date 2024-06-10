@@ -1,7 +1,13 @@
 body {
-  padding: 10px;
-}
-
-input {
-  margin: 5px;
-}
+    padding: 10px;
+  }
+  
+  input {
+    margin: 5px;
+    width: 95%;
+  }
+  
+  textarea{
+    margin: 5px;
+    width: 95%;
+  }

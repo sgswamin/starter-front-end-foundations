@@ -11,8 +11,31 @@
     />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-
   <body>
-    <main></main>
+    <form>
+        <div>
+          <fieldset>
+            <label for="name">Name:</label>
+            <br>
+            <input id="name" type="text" name="name" />
+          <br>
+            <label for="email">Email:</label>
+            <br>
+            <input id="email" type="email" name="email" />
+          <br>
+            <label for="form-message">Your message:</label>
+            <textarea
+            id="form-message"
+            name="message"
+            autofocus="on"
+            required
+            >
+            </textarea>
+          </fieldset>
+          <br>
+          <button type="submit">Submit</button>
+        </div>
+    </form>
+
   </body>
-</html>
+  </html>
